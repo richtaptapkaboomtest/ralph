@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+20&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+p, ul, ol{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+ul, ol{
+    padding: 0;
+    list-style-position: inside;
+}
+
+a, a:visited{
+    color: rgb(255, 74, 74);
+}
+
+a:hover{
+    color: rgb(74, 119, 255);
+}
+
+a:active{
+    color: rgb(164, 74, 255);
+}
+
+p.caption{
+    font-size: 16px;
+    color: rgb(120, 120, 120);
+    font-style: oblique;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(10, 23, 49);
+    padding: 20px;
+}
+
+header .pfp{
+    width: 220px;
+    height: 220px;
+    border: 20px solid rgb(255, 74, 74);
+    border-radius: 50%;
+    background-image: url('./../img/ralph-with-vanellope.webp');
+    background-repeat: no-repeat;
+    background-position: -120px -24px;
+    background-size: 210%;
+    margin: 0 auto;
+}
+
+header .pfp.vanellope {
+    background-image: url('./../img/vanellope.jpeg');
+    background-position: 0 0;
+    background-size: cover;
+    border-color: rgb(25, 241, 187);
+}
+
+h1{
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    margin: 10px 0 20px 0;
+    color: white
+}
+
+h2{
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+/* footer */
+footer{
+    background-color: rgb(47, 115, 242);
+    padding: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer .content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer a,
+footer a:visited {
+    color: white;
+}
+footer a:hover{
+    color: rgb(255, 192, 74);
+}
+
+@media (max-width: 600px) {
+    footer p{
+        font-size: 16px;
+    }
+}
